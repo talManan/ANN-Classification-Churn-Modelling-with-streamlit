@@ -49,7 +49,7 @@ Python , NumPy, Pandas , Scikit-learn , TensorFlow / Keras ,Streamlit
 
 
 ## Project Screenshots
-![Streamlit App](./streamlit_app.png)
-![Training Performance](./training_performance.png)
+![Streamlit App](screenshots/Streamlit.png)
+
 
 
