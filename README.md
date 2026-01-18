@@ -52,6 +52,9 @@ Python , NumPy, Pandas , Scikit-learn , TensorFlow / Keras ,Streamlit
 ![Streamlit App](screenshots/Streamlit.png)
 ![Training Performance](screenshots/Tensorboard.png)
 
+##ANN Regression 
+At end i performed regression to predict continuous values from input features. The model is trained using TensorFlow/Keras with proper preprocessing, feature scaling, and evaluation.
+
 
 
 
