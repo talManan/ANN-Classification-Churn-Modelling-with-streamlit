@@ -46,3 +46,8 @@ Python , NumPy, Pandas , Scikit-learn , TensorFlow / Keras ,Streamlit
 * Model serialization and reuse
 
 * Deploying ML models as web applications
+
+## 📸 Project Screenshots
+![Streamlit App](streamlit.png)
+![Training Performance](tensorboard.png)
+
