@@ -48,8 +48,10 @@ Python , NumPy, Pandas , Scikit-learn , TensorFlow / Keras ,Streamlit
 * Deploying ML models as web applications
 
 
-## Project Screenshots
+## Project Screenshots for Streamlit and the Tensorboard
 ![Streamlit App](screenshots/Streamlit.png)
+![Training Performance](screenshots/Tensorboard.png)
+
 
 
 
