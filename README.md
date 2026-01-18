@@ -18,88 +18,88 @@ Predict customer churn accurately and help businesses take preventive actions ba
 The dataset contains customer-related information such as:
 Credit Score
 
-,Geography
+.Geography
 
-,Gender
+.Gender
 
-,Age
+.Age
 
-,Tenure
+.Tenure
 
-,Balance
+.Balance
 
-,Number of Products
+.Number of Products
 
-,Has Credit Card
+.Has Credit Card
 
-,Is Active Member
+.Is Active Member
 
-,Estimated Salary
+.Estimated Salary
 
-,Target variable:
+.Target variable:
 
-,Exited (0 or 1) — whether the customer churned
+.Exited (0 or 1) — whether the customer churned
 
  **Data Preprocessing**
 
 The following preprocessing steps were performed:
 
-Label Encoding for binary categorical features
+.Label Encoding for binary categorical features
 
-,One-Hot Encoding for multi-class categorical variables (Geography)
+.One-Hot Encoding for multi-class categorical variables (Geography)
 
-,Feature Scaling using StandardScaler
+.Feature Scaling using StandardScaler
 
-,Splitting data into training and testing sets
+.Splitting data into training and testing sets
 
-,All preprocessing objects were saved to ensure consistent predictions during deployment.
+.All preprocessing objects were saved to ensure consistent predictions during deployment.
 
 **Model Architecture (ANN) **
 
-Built using TensorFlow/Keras
+.Built using TensorFlow/Keras
 
-,Multiple Dense layers with ReLU activation
+.Multiple Dense layers with ReLU activation
 
-,Sigmoid output layer for binary classification
+.Sigmoid output layer for binary classification
 
-,Optimized using:
+.Optimized using:
 
-,Binary Crossentropy loss
+.Binary Crossentropy loss
 
-,Adam optimizer
+.Adam optimizer
 
-,The model was trained and evaluated for performance on unseen data.
+.The model was trained and evaluated for performance on unseen data.
 
  **Deployment with Streamlit**
 
-The trained ANN model was deployed using Streamlit:
+.The trained ANN model was deployed using Streamlit:
 
-User-friendly UI for entering customer details
+.User-friendly UI for entering customer details
 
-,Real-time churn prediction
+.Real-time churn prediction
 
-,Reuses saved model and preprocessing objects
+.Reuses saved model and preprocessing objects
 
-,This makes the project practical and usable beyond notebooks.
+.This makes the project practical and usable beyond notebooks.
 
 **Tech Stack**
 
-Python
+.Python
 
-,NumPy, Pandas
+.NumPy, Pandas
 
-,Scikit-learn
+.Scikit-learn
 
-,TensorFlow / Keras
+.TensorFlow / Keras
 
-,Streamlit
+.Streamlit
 
 **Key Learnings**
 
-End-to-end ML pipeline implementation
+.End-to-end ML pipeline implementation
 
-,ANN model building and evaluation
+.ANN model building and evaluation
 
-,Model serialization and reuse
+.Model serialization and reuse
 
-,Deploying ML models as web applications
+.Deploying ML models as web applications
